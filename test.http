@@ -1,0 +1,12 @@
+GET http://localhost:8080/calculator/divide/a/5/b/1
+
+###
+
+GET http://localhost:8080/calculator/divide/a/5/b/0
+
+###
+
+GET http://localhost:8080/calculator/multiply/a/5/b/0
+#username: Artur
+
+###

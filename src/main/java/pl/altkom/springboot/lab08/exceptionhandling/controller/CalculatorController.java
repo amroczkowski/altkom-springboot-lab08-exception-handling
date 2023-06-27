@@ -41,9 +41,9 @@ public class CalculatorController {
         return calculatorService.divide(a, b);
     }
 
-    @ExceptionHandler({DivisorException.class})
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    public String handleDivisorException(final DivisorException e) {
-        return "You can't divide by zero";
-    }
+//    @ExceptionHandler({DivisorException.class})
+//    @ResponseStatus(HttpStatus.BAD_REQUEST)
+//    public String handleDivisorException(final DivisorException e) {
+//        return "You can't divide by zero";
+//    }
 }
